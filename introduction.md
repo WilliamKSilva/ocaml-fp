@@ -6,7 +6,7 @@ We conventionally use programming languages to write our programs and talk to ou
 
 If we take Java for example, the core of the language was built with OOP paradigm in mind, so you have a lot of tools and ways of dealing with the OOP principles listed above, like: Classes, some specific methods and even the way the memory is automatically dealt with. You as a programmer has probably messed around with OOP and Procedural programming, but what about Functional programming?
 
-## Note:
+### Note:
 It's also important to remember that some programming languages have support for both OOP and FP. Like Javascript for example, in Javascript you have support for First Class Functions and also Class data structures that allows you to implement all the OOP principles. While languages like that are not considered "Pure" functional languages, they gave you the hability to write FP code. 
 
 # What is functional programming?
@@ -14,4 +14,4 @@ Functional programming is a programming paradigm broadly used on Software. With 
 - **First class functions**. A language that treats functions as first class citizens allows to pass functions as arguments to other functions, return functions as values and store functions as variables. [Reference](https://en.wikipedia.org/wiki/First-class_function)
 - **Imutability**. Imutability garants that a created value will not change its state as long as the program is running. [Reference](https://en.wikipedia.org/wiki/Immutable_object)
 
-During this docs I will write and give examples about some essential techniques used in FP (Functional Programming), like: **High Order Functions**, **Currying**, **Recursion**, etc.
+During this docs I will write and give code examples about some essential techniques used in FP (Functional Programming), like: **High Order Functions**, **Currying**, **Recursion**, etc.
