@@ -8,8 +8,9 @@ OCaml provide us with the **List** module, that provides a lot of predefined fun
 ```ocaml
   let res = List.map (fun x -> x * x) [1; 2; 3; 4; 5] 
   (* 
-    In this example List.map calls the function we passed as the first argument to every element of the list we passed as the second argument and returns a new List
-    The expression is called and evaluates to: [0; 1; 4; 9; 16; 25]
+    In this example List.map calls the function we passed as the first argument to every element of the list we passed
+    as the second argument, our values are computated and returned on a new List
+    The expression evaluates to: [0; 1; 4; 9; 16; 25]
   *)
 ```
 
