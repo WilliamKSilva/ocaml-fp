@@ -16,7 +16,7 @@ A curried function is a type of function that receives its parameters like (t1 -
   let curried_sum = fun x -> fun y -> x + y
 ```
 
-# What is a uncurried function?
+# What is an uncurried function?
 
 A uncurried function is a type of function that receives its parameters as a tuple (t1 * t2 -> t3)
 
@@ -59,7 +59,7 @@ It's usefull to know how to convert between them, sometimes you will have access
   *)
   let add1 (x, y) = x + y  
 
-  (* Here we have two functions to convert a function to curry and uncurry *)
+  (* Here we have two functions to curry and uncurry function *)
   let curry f x y = f (x, y)
   let uncurry f (x, y) = f x y
 
