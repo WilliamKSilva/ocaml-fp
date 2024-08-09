@@ -15,3 +15,6 @@ Functional programming is a programming paradigm broadly used on Software. With 
 - **Imutability**. Imutability garants that a created value will not change its state as long as the program is running. [Reference](https://en.wikipedia.org/wiki/Immutable_object)
 
 During this docs I will write and give code examples about some essential techniques used in FP (Functional Programming), like: **High Order Functions**, **Currying**, **Recursion**, etc.
+
+# References
+- [CS3110](https://cs3110.github.io/textbook/cover.html): This is a amazing book used on Cornell university to teach about Functional Programming, the book uses OCaml.
