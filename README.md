@@ -17,4 +17,4 @@ Functional programming is a programming paradigm broadly used on Software. With 
 During this docs I will write and give code examples about some essential techniques used in FP (Functional Programming), like: **High Order Functions**, **Currying**, **Recursion**, etc.
 
 # References
-- [CS3110](https://cs3110.github.io/textbook/cover.html): This is a amazing book used on Cornell university to teach about Functional Programming, the book uses OCaml.
+- [CS3110](https://cs3110.github.io/textbook/cover.html): This is a amazing book used at Cornell university to teach about Functional Programming, the book uses OCaml.
