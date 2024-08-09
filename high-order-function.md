@@ -3,7 +3,7 @@ The definition for a High Order Function is simple: **a function that expects a 
 
 As we have talked earlier, functions are incredible building blocks for programs, we can easily define some block of code that applies some specific action to different data. But what if, for example, we want the action in our function to be dynamic too? Well, we can simply use another function. Check it out.
 
-OCaml provide us with the **List** module, that provides a lot of predefined function that act on Lists. Inside **List** module we have the **List.map** function for example, that is used to call an specific function to every element of a List and get a new List with the values modified.
+OCaml provide us with the **List** module, that provides a lot of predefined functions that act on Lists. Inside **List** module we have the **List.map** function for example, that is used to call a specific function to every element of a List and get a new List with the values modified.
 
 ```ocaml
   let res = List.map (fun x -> x * x) [1; 2; 3; 4; 5] 
