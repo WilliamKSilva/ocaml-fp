@@ -14,7 +14,7 @@ OCaml provide us with the **List** module, that provides a lot of predefined fun
   *)
 ```
 
-The function List.map is a example of a **High Order Function**, since we have to pass a function as a argument. List.map is incredibly useful, since we can apply a function to a List and get a new one with the new values easily. For example, what if insted of getting the **power of two** of the element of the List we want to check the sum of them with **5**? 
+The function List.map is an example of a **High Order Function**, since we have to pass a function as an argument. List.map is incredibly useful, since we can apply a function to a List and get a new one with the new values easily. For example, what if insted of getting the **power of two** of the element of the List we want to check the sum of them with **5**? 
 
 ```ocaml
   let res = List.map (fun x -> x + 5) [1; 2; 3; 4; 5] 
